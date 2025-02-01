@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "web-api-based-rag-in-aws"
+version = "0.1.0"
+description = ""
+authors = ["torataro-tiger <121601488+torataro-tiger@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.3.13"
+langchain-aws = "^0.2.10"
+langgraph = "^0.2.60"
+langchain-community = "^0.3.13"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
